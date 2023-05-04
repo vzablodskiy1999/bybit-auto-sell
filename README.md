@@ -1,5 +1,6 @@
-Open keys.js and insert your info 
+# Откройте keys.js
 
+~~~javascript  
 export const accounts = [
     {
         private: '', // privateKey from Bybit
@@ -15,5 +16,7 @@ export const accounts = [
         price: '123' // if you want to place Limit order with specific price, works only when isMarket is false 
     }
 ]
+~~~  
 
-Между каждым аккаунтом стоит рандомная задержка от 1 до 45 секунд
+Между каждым аккаунтом стоит рандомная задержка от 1 до 45 секунд 
+
